@@ -3,7 +3,7 @@ const sql = require("mssql");
 // Bağlantı ayarları
 const config = {
     user: "sa",
-    password: "Abcd1234.,",
+    password: "",
     server: "",
     database: "",
     options: {
