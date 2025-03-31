@@ -3,9 +3,9 @@ const sql = require("mssql");
 // Bağlantı ayarları
 const config = {
     user: "sa",
-    password: "Abcd1234.,",
-    server: "213.159.2.123",
-    database: "haber_lgbt",
+    password: "",
+    server: "",
+    database: "",
     options: {
         encrypt: false,
         enableArithAbort: true
