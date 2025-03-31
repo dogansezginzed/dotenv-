@@ -26,4 +26,5 @@ async function getData() {
     }
 }
 
+
 getData();

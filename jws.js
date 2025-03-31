@@ -25,6 +25,7 @@ app.get("/profil", authenticateToken, (req, res) => {
 });
 
 
+
 // Token doğrulama middleware fonksiyonu
 const authenticateToken = (req, res, next) => {
     const token = req.headers["authorization"];
